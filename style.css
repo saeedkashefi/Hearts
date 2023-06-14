@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(127, 255, 212, 0.507);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.heart{
+    font-size: 380px;
+    color: red;
+    text-shadow: 0 10px rgba(0, 0, 0, 0.226);
+    animation: hearts 0.9s infinite ease-out;
+}
+
+@keyframes hearts {
+    to{
+        transform: scale(0.7);
+    }
+    from{
+        transform: scale(1);
+    }
+}
